@@ -1,0 +1,3 @@
+Allow multiple file extensions.
+When scanning for a file extension, logic to add file extension should be done during the
+	creation of the work queue, not done by the worker threads.
